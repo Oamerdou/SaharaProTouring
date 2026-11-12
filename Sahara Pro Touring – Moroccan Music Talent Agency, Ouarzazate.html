@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sahara Pro Touring – Moroccan Music Talent Agency, Ouarzazate</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#120b06;--bg2:#1d130b;--gold:#e3a53f;--gold-soft:#b9863a;--sand:#f2e6cf;--muted:#c9b99d;--line:rgba(227,165,63,.35);
+color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#120b06;--bg2:#1d130b}}
+:root[data-theme="dark"]{--bg:#120b06;--bg2:#1d130b}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--sand);font:400 1.05rem/1.7 Inter,system-ui,sans-serif}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.serif{font-family:"Cormorant Garamond",Georgia,serif}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+header{position:sticky;top:0;z-index:5;background:rgba(18,11,6,.88);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
+.brand{display:inline-flex;align-items:center;gap:12px;font-family:"Cormorant Garamond",Georgia,serif;font-size:1.25rem;letter-spacing:.14em;text-decoration:none}
+.logo-s{height:36px;width:auto}
+nav{display:flex;gap:22px;font-size:.9rem}nav a{text-decoration:none;color:var(--muted)}nav a:hover{color:var(--gold)}
+@media(max-width:640px){nav a:not(.cta-s){display:none}}
+.cta-s{color:var(--gold)}
+/* hero */
+.hero{position:relative;overflow:hidden;text-align:center;padding:84px 0 190px;background:radial-gradient(ellipse at 50% 20%,#3a2410 0%,var(--bg) 70%)}
+.mark{width:150px;height:150px;margin:0 auto 34px;position:relative}
+.mark i{position:absolute;border:1px solid var(--line);border-radius:30px}
+.mark i:nth-child(1){inset:0 22px 22px 0}.mark i:nth-child(2){inset:22px 0 0 22px}
+.mark b{position:absolute;inset:0;display:grid;place-items:center;font:600 2rem "Cormorant Garamond",serif;color:var(--sand);letter-spacing:.06em}
+.mark img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.mark.has-logo{width:190px;height:190px}.mark.has-logo i,.mark.has-logo b{display:none}
+.intro{font-size:.8rem;letter-spacing:.32em;color:var(--gold);text-transform:uppercase;margin:0 0 14px}
+h1{font:600 clamp(2.4rem,7vw,4.6rem)/1.05 Inter,sans-serif;letter-spacing:.01em;margin:0 0 18px;text-transform:uppercase}
+.place{font-size:.85rem;letter-spacing:.3em;color:var(--gold);margin:0 0 26px}
+.lead{max-width:600px;margin:0 auto 34px;color:var(--muted)}
+.btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 26px;border:1px solid var(--gold);text-decoration:none;font-weight:500;letter-spacing:.04em;transition:.2s}
+.btn.fill{background:var(--gold);color:#1a0f06}.btn:hover{background:var(--sand);border-color:var(--sand);color:#1a0f06}
+.dunes{position:absolute;left:0;right:0;bottom:-1px;width:100%;height:170px}
+/* sections */
+section{padding:84px 0}
+h2{font:500 clamp(2rem,4.5vw,3rem)/1.15 "Cormorant Garamond",Georgia,serif;margin:0 0 20px}
+.sub{color:var(--muted);max-width:640px}
+.star{display:block;width:34px;height:34px;margin:0 0 22px;fill:none;stroke:var(--gold);stroke-width:1.4}
+.genres{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px;margin-top:40px}
+.g{border:1px solid var(--line);padding:24px 22px;background:linear-gradient(160deg,var(--bg2),var(--bg))}
+.g h3{margin:0 0 8px;font:600 1.5rem "Cormorant Garamond",serif;color:var(--gold)}
+.g p{margin:0;font-size:.95rem;color:var(--muted);line-height:1.6}
+.tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+.tags span{border:1px solid var(--gold-soft);padding:6px 14px;font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600}
+.band{background:var(--bg2);border-block:1px solid var(--line)}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:36px;margin-top:36px}
+.cols h3{font:600 1.35rem "Cormorant Garamond",serif;margin:0 0 6px;color:var(--gold)}
+.cols p{margin:0;color:var(--muted);font-size:.97rem}
+.roster{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:22px;margin-top:40px}
+.a{border:1px solid var(--line);background:var(--bg2)}
+.a .ph{position:relative;aspect-ratio:4/5;display:grid;place-items:center;background:radial-gradient(circle at 50% 30%,#3a2410,var(--bg2));border-bottom:1px solid var(--line);overflow:hidden}
+.a .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.a .ph span{font:600 3rem "Cormorant Garamond",serif;color:var(--gold);letter-spacing:.06em}
+.a .t{padding:16px 18px 20px}
+.a h3{margin:0;font:600 1.4rem "Cormorant Garamond",serif}
+.a .gn{display:inline-block;margin:8px 0;border:1px solid var(--gold-soft);padding:2px 10px;font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:var(--gold)}
+.a p{margin:0;font-size:.92rem;color:var(--muted);line-height:1.55}
+/* contact */
+.contact{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:40px;align-items:start}
+.row{border-top:1px solid var(--line);padding:16px 0}
+.row small{display:block;font-size:.72rem;letter-spacing:.22em;color:var(--gold);text-transform:uppercase;font-weight:600}
+.row a{font-size:1.2rem;text-decoration:none;word-break:break-all}.row a:hover{color:var(--gold)}
+form{display:grid;gap:14px}
+label{font-size:.85rem;color:var(--muted)}
+input,select,textarea{width:100%;margin-top:5px;padding:12px;background:var(--bg2);border:1px solid var(--line);color:var(--sand);font:inherit;border-radius:0}
+textarea{min-height:120px;resize:vertical}
+button.btn{cursor:pointer;font:inherit;font-weight:500}
+footer{border-top:1px solid var(--line);padding:28px 0;text-align:center;color:var(--muted);font-size:.85rem}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<a class="brand" href="#top"><img class="logo-s" src="images\sahara-pro-touring-logo-white.png" alt="" onerror="this.remove()">SAHARA PRO TOURING</a>
+<nav><a href="#music">Music</a><a href="#artists">Artists</a><a href="#agency">Agency</a><a class="cta-s" href="#contact">Book an artist</a></nav>
+</div></header>
+
+<main id="top">
+<div class="hero">
+<div class="wrap">
+<div class="mark"><i aria-hidden="true"></i><i aria-hidden="true"></i><b aria-hidden="true">SPT</b><img src="images\sahara-pro-touring-logo-gold-white.png" alt="Sahara Pro Touring logo" onload="this.parentNode.classList.add('has-logo')" onerror="this.remove()"></div>
+<p class="intro">Introducing</p>
+<h1>Moroccan music<br>talent agency</h1>
+<p class="place">OUARZAZATE · MOROCCO</p>
+<p class="lead">We represent the full spectrum of Moroccan music, from Gnawa, Amazigh and Saharan sounds to Chaabi, Aita and Baldi, and connect authentic artists with international festivals, concerts and cultural programmes.</p>
+<div class="btns"><a class="btn fill" href="#contact">Book an artist</a><a class="btn" href="#music">Explore the music</a></div>
+</div>
+<svg class="dunes" viewBox="0 0 1200 170" preserveAspectRatio="none" aria-hidden="true">
+<path d="M0 110 C200 40 380 120 600 80 S1000 30 1200 90 V170 H0Z" fill="#2a1a0d"/>
+<path d="M0 140 C220 90 420 150 640 120 S1000 80 1200 130 V170 H0Z" fill="#1d130b"/>
+<path d="M0 160 C300 130 600 165 900 145 S1100 140 1200 155 V170 H0Z" fill="#120b06"/>
+</svg>
+</div>
+
+<section id="music"><div class="wrap">
+<svg class="star" viewBox="0 0 40 40" aria-hidden="true"><path d="M20 2l5 8 9-2-2 9 8 5-8 5 2 9-9-2-5 8-5-8-9 2 2-9-8-5 8-5-2-9 9 2z"/></svg>
+<h2>The full spectrum of Moroccan music</h2>
+<p class="sub">Seven traditions, from the Atlas and the desert to the cities. Each one is performed by artists who carry it in their everyday lives.</p>
+<div class="genres">
+<div class="g"><h3>Gnawa</h3><p>Spiritual trance music built on the guembri, iron castanets and call-and-response chants.</p></div>
+<div class="g"><h3>Amazigh</h3><p>Songs and rhythms of the Amazigh (Berber) communities of the Atlas and the south.</p></div>
+<div class="g"><h3>Saharan</h3><p>Music from the desert south, shaped by nomadic traditions and open landscapes.</p></div>
+<div class="g"><h3>Desert Blues</h3><p>Hypnotic guitar-led grooves with roots in Saharan melody and rhythm.</p></div>
+<div class="g"><h3>Chaabi</h3><p>Popular music of Moroccan cities, made for celebration and shared singing.</p></div>
+<div class="g"><h3>Aita</h3><p>Powerful poetic songs from the Moroccan countryside, carried by strong voices.</p></div>
+<div class="g"><h3>Baldi</h3><p>Traditional, rooted sounds of the Moroccan heartland.</p></div>
+</div>
+</div></section>
+
+<section id="artists"><div class="wrap">
+<svg class="star" viewBox="0 0 40 40" aria-hidden="true"><path d="M20 2l5 8 9-2-2 9 8 5-8 5 2 9-9-2-5 8-5-8-9 2 2-9-8-5 8-5-2-9 9 2z"/></svg>
+<h2>Artists we work with</h2>
+<p class="sub">A selection of the musicians and ensembles we collaborate with. Contact us for the full roster, videos and technical riders.</p>
+<div class="roster">
+<!-- ARTIST CARD -->
+<article class="a"><div class="ph"><span aria-hidden="true">AN</span><img src="https://YOUR-SITE.com/artist-1.jpg" alt="Artist name" onerror="this.remove()"></div><div class="t"><h3>Artist name</h3><span class="gn">Gnawa</span><p>Short bio</p></div></article>
+<article class="a"><div class="ph"><span aria-hidden="true">AN</span><img src="https://YOUR-SITE.com/artist-2.jpg" alt="Artist name" onerror="this.remove()"></div><div class="t"><h3>Artist name</h3><span class="gn">Amazigh</span><p>Short bio</p></div></article>
+<article class="a"><div class="ph"><span aria-hidden="true">AN</span><img src="https://YOUR-SITE.com/artist-3.jpg" alt="Artist name" onerror="this.remove()"></div><div class="t"><h3>Artist name</h3><span class="gn">Desert Blues</span><p>Short bio</p></div></article>
+</div>
+</div></section>
+
+<section id="agency" class="band"><div class="wrap">
+<h2>Authentic artists, international stages</h2>
+<p class="sub">Sahara Pro Touring is based in Ouarzazate, the gateway to the Sahara. We work between Moroccan musicians and the people who host them abroad.</p>
+<div class="cols">
+<div><h3>Festivals</h3><p>Line-ups that bring Moroccan traditions to festival audiences.</p></div>
+<div><h3>Concerts</h3><p>Artists and ensembles for theatres, clubs and concert halls.</p></div>
+<div><h3>Cultural programmes</h3><p>Performances, residencies and exchanges for cultural institutions.</p></div>
+</div>
+<div class="tags" aria-label="Genres"><span>Gnawa</span><span>Amazigh</span><span>Chaabi</span><span>Aita</span><span>Baldi</span><span>Desert Blues</span><span>Saharan</span></div>
+</div></section>
+
+<section id="contact"><div class="wrap contact">
+<div>
+<h2>Booking and enquiries</h2>
+<p class="sub">Tell us about your event and the sound you are looking for. We will reply with suitable artists.</p>
+<div class="row"><small>Booking</small><a href="mailto:saharaprotouring@gmail.com">saharaprotouring@gmail.com</a></div>
+<div class="row"><small>Phone / WhatsApp</small><a href="https://wa.me/212693408181">+212 693 408 181</a></div>
+<div class="row"><small>Instagram</small><a href="https://www.instagram.com/saharaprotouring/">@saharaprotouring</a></div>
+</div>
+<form id="f">
+<label>Your name<input name="n" required autocomplete="name"></label>
+<label>Email<input name="e" type="email" required autocomplete="email"></label>
+<label>Style of music<select name="s"><option>Not sure yet</option><option>Gnawa</option><option>Amazigh</option><option>Saharan</option><option>Desert Blues</option><option>Chaabi</option><option>Aita</option><option>Baldi</option></select></label>
+<label>Event details<textarea name="m" placeholder="Event type, date, location, audience"></textarea></label>
+<button class="btn fill" type="submit">Send enquiry</button>
+</form>
+</div></section>
+</main>
+
+<footer>© 2026 Sahara Pro Touring · Ouarzazate, Morocco</footer>
+
+<script>
+document.getElementById('f').addEventListener('submit',function(ev){
+ev.preventDefault();var d=new FormData(ev.target);
+var body='Name: '+d.get('n')+'\nEmail: '+d.get('e')+'\nStyle: '+d.get('s')+'\n\n'+d.get('m');
+location.href='mailto:saharaprotouring@gmail.com?subject='+encodeURIComponent('Booking enquiry from '+d.get('n'))+'&body='+encodeURIComponent(body);
+});
+</script>
+</body>
+</html>
